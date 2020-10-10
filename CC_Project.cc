@@ -11,13 +11,13 @@
 DHT dht(DHTPIN, DHTTYPE); //creating a object of type dht
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE,0xED}; // Assigning default MAC Address to my Ethernet Shield
-IPAddress ip(192,168,1,150); // Deafault Router IP
+IPAddress ip(192,168,1,150); // Deafault Router IP which can be created through router access link 192.168.1.1 or 192.168.1.0
 EthernetClient client;
 
-unsigned long channelNumber = 1173739;
-unsigned long commandNumber = 1182645;
-const char * key = "IXM5CQRP2OGQPORP";
-const char * readKey = "1B5MBHB1QBKG3QQM";
+unsigned long channelNumber = //Add channel Number with 3 Fields;
+unsigned long commandNumber = // Another Channel Number with 1 Fields;
+const char * key = "Paste Your Write API Key Here";
+const char * readKey = "1Paste Your Read API Key Here";
 
 
 long lastWriteTime = 0;
