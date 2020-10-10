@@ -1,7 +1,7 @@
-readChannelID = 1173739;
+readChannelID = % Channel Number;
 TemperatureFieldID = 1;
 HumidityFieldID = 2;
-readAPIKey = 'LQRCZR5S9P7EWQJ6';
+readAPIKey = 'Paste your read API Key';
 
 
 data = thingSpeakRead(readChannelID,'Fields',[TemperatureFieldID HumidityFieldID],'NumPoints',200,'ReadKey',readAPIKey); 
