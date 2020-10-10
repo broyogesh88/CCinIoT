@@ -1,0 +1,4 @@
+Public URL to my Channel -
+        https://thingspeak.com/channels/1173739
+Public URL of Matlab Visualisation
+        https://thingspeak.com/apps/matlab_visualizations/369695
